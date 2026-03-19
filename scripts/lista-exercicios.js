@@ -48,6 +48,11 @@ function exercicio4() {
 
     const hora = Number(prompt("Digite o horário (APENAS HORA"))
 
+    if (hora >= 5 && hora <= 11) {
+        alert("BOM DIAAAAAAAA ☀️☀️☀️")
+    }
+    else if 
+
 
 }
 const buttonexercicio4 = document.getElementById("exercicio4")
