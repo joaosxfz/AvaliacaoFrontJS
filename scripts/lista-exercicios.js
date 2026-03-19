@@ -36,7 +36,7 @@ function exercicio3() {
     alert("A área possui " + resultado + " m por quadrado")
 }
 const buttonexercicio3 = document.getElementById("exercicio3")
-buttonexercicio3.addEventListener('click', () => { exercicio3() })
+buttonexercicio3.addEventListener('click', () => { exercicio3() }) 
 
 // -------------------------QUESTÃO 4---------------------------------------------
 
@@ -46,14 +46,17 @@ function exercicio4() {
     // Boa tarde (12–17)
     // Boa noite (18–4)
 
-    const hora = Number(prompt("Digite o horário (APENAS HORA"))
+    const hora = Number(prompt("Digite o horário atual (APENAS A HORA)"))
 
     if (hora >= 5 && hora <= 11) {
-        alert("BOM DIAAAAAAAA ☀️☀️☀️")
+        alert("BOM DIA ☀️")
     }
-    else if 
-
-
+    else if (hora >= 12 && hora <= 17) {
+        alert("BOA TARDE 🌥️")
+    }
+    else {
+        alert("BOA NOITE 🌑")
+    }
 }
 const buttonexercicio4 = document.getElementById("exercicio4")
 buttonexercicio4.addEventListener('click', () => { exercicio4() })
