@@ -61,4 +61,26 @@ function exercicio4() {
 const buttonexercicio4 = document.getElementById("exercicio4")
 buttonexercicio4.addEventListener('click', () => { exercicio4() })
 
-//15, 17, 2, 14
+// -------------------------PARTE 2---------------------------------------------
+
+const valor1 = document.getElementById('valor1');
+const valor2 = document.getElementById('valor2');
+const botao = document.getElementById('calcular');
+const resultado = document.getElementById('resultado');
+
+//daqui pra baixo veio do site
+
+botao.addEventListener('click', function() {
+// o codigo do site tinha esses termos que eu nunca vi
+    const num1 = parseFloat(valor1.value) || 0;
+    const num2 = parseFloat(valor2.value) || 0;
+
+    const soma = num1 + num2;
+
+    resultado.textContent = `Resultado: ${soma}`;
+});   
+
+//professor eu não peguei da IA, usei varios sites como referencial:
+
+//https://blog.da2k.com.br/2015/01/13/javascript-brincando-com-numeros/
+//https:pt.stackoverflow.com/questions/212357/somar-valores-de-dois-inputs-e-mostrar-em-terceiro
