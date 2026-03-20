@@ -36,7 +36,7 @@ function exercicio3() {
     alert("A área possui " + resultado + " m por quadrado")
 }
 const buttonexercicio3 = document.getElementById("exercicio3")
-buttonexercicio3.addEventListener('click', () => { exercicio3() }) 
+buttonexercicio3.addEventListener('click', () => { exercicio3() })
 
 // -------------------------QUESTÃO 4---------------------------------------------
 
@@ -70,15 +70,15 @@ const resultado = document.getElementById('resultado');
 
 //daqui pra baixo veio do site
 
-botao.addEventListener('click', function() {
-// o codigo do site tinha esses termos que eu nunca vi
+botao.addEventListener('click', function () {
+    // o codigo do site tinha esses termos que eu nunca vi
     const num1 = parseFloat(valor1.value) || 0;
     const num2 = parseFloat(valor2.value) || 0;
 
     const soma = num1 + num2;
 
     resultado.textContent = `Resultado: ${soma}`;
-});   
+});
 
 //professor eu não peguei da IA, usei varios sites como referencial:
 
